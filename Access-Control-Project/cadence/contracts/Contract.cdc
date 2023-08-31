@@ -20,14 +20,14 @@ access(all) contract SomeContract {
         pub var b: String
 
         /* 
-        * The read scope scope is in Areas 1, 2, and 3
-        * while the scope is in Area 1 only
+        * The read scope is in Areas 1, 2, and 3
+        * while the write scope is in Area 1 only
         */
         access(contract) var c: String
 
         /* 
         * The read Read scope is in  Area 1 only
-        * while the scope is in Area 1 only
+        * while the write scope is in Area 1 only
         */
         access(self) var d: String
 
